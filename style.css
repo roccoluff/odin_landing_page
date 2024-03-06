@@ -2,9 +2,14 @@ html {
     background-color: #1F2937;
 }
 
+body{
+    margin: 0;
+}
+
 header{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 ul{
@@ -18,6 +23,7 @@ li{
     color: #E5E7EB;
     font-size: 18px;
 }
+
 
 .Title {
     font-size: 48px;
@@ -35,6 +41,46 @@ li{
     color: #E5E7EB;
 }
 
+.titleSec2{
+    display: flex;
+    justify-content: center;
+}
+
+.titleSec2 {
+    background: linear-gradient(270deg, #13ffc2, #852151);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 59s ease infinite;
+    -moz-animation: AnimationName 59s ease infinite;
+    animation: AnimationName 59s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.section2{
+    background-color: white;
+}
+
+.boxessec2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+
 #Header {
     font-size: 24px;
     color: #F9FAF8;
@@ -46,5 +92,18 @@ li{
 }
 
 #Magnus{
-    width: 250px;
+    width: 280px;
+}
+
+#button1{
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 25px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
+}
+
+#button1:hover{
+    background-color: red;
 }
