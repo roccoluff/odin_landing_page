@@ -6,6 +6,12 @@ body{
     margin: 0;
 }
 
+footer{
+    color: #E5E7EB;
+    text-align: center;
+    padding: 30px;
+}
+
 header{
     display: flex;
     justify-content: space-between;
@@ -76,13 +82,22 @@ li{
 }
 
 .section3{
-    background-color: #E5E7EB;
+    background-color: #c9c3c3;
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.author{
+    align-self: flex-end;
 }
 
 .quote{
     color: #1F2937;
     font-size: 36px;
     font-style: italic;
+    margin-top: 0;
 }
 
 .boxessec2{
@@ -90,6 +105,38 @@ li{
     justify-content: space-evenly;
     margin-top: 40px;
     text-align: center;
+}
+
+.section4{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxessec4{
+    border: 1px;
+    border-style: solid;
+    border-color: #3882F6;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 750px;
+    align-items: center;
+    border-radius: 20px;
+    font-size: 17px;
+}
+
+.button4{
+    margin-left: 15px;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border-radius: 25px;
+    height: 35px;
+    width: 120px;
+    font-size: 15px;
 }
 
 #Header {
@@ -116,5 +163,9 @@ li{
 }
 
 #button1:hover{
+    background-color: red;
+}
+
+.button4:hover{
     background-color: red;
 }
